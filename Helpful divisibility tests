@@ -1,0 +1,89 @@
+1.Divisibility rule for 1:
+  Every integer is divisible by 1, so no rules are needed.
+
+
+
+2.Divisibility rule for 2:
+  The last digit must be even number i.e. 0, 2, 4, 6, 8.
+
+3.Divisibility rule for 3:
+  The sum of digits in given number should be divisible by 3. This is easy method to find numbers divisible by 3.
+
+4.Divisible by 4 rule:
+  The number formed by last two digits in given number must be divisible by 4.
+
+5.Divisibility rules for 5:
+  Last digit must be 0 or 5.
+
+
+6.Divisibility by 6:
+  The number must be divisible by 2 and 3. Because 2 and 3 are prime factors of 6.
+
+7.7 Divisibility rule:
+  Twice the last digit and subtract it from remaining number in given number, result must be divisible by 7. (You can again apply this to check for divisibility test of 7.)
+  Ex :
+    343 is divisible 7 –> 34 – (2*3) = 28, 28 is divisible by 7.
+    345343 is given number. 3 is last digit. Subtract 2*3 from 34534.
+    34534 – (2*3) = 34528, we cannot tell that this result is divisible by 7. So, we do it again.
+    3452 – (2*8) = 3436, we will do it again.
+    343 – (2*6) = 331, we will do it again.
+    33 – (2*1) = 31, 31 is not divisible by 7.
+    So, 345343 is not divisible by 7.
+
+8.Divisible by 8:
+  The number formed by last three digits in given number must be divisible by 8.
+
+
+9.Divisible by 9:
+  Same as 3. Sum of digits in given number must be divisible by 9.
+
+10.Divisible by 10:
+  Last digit must be 0.
+
+11.Divisible test of 11:
+  Form the alternating sum of digits. The result must be divisible by 11.
+  Ex : 416042 is divisible by 11 –> 4-1+6-0+4-2 = 11, 11 is divisible by 11.
+
+
+12.Divisibility by 12:
+  The number must be divisible by 3 and 4. Because (3* (2^2)) are prime factors of 12.
+  Ex : 462157692 is divisible by 12 –> last 2 digits 92, so divisible by 4, and sum 4+6+2+1+5+7+6+9+2 = 42 is divisible by 3.
+
+
+13.Divisibility test for 13:
+  Multiply last digit with 4 and add it to remaining number in given number, result must be divisible by 13. 
+
+
+
+14.Divisibility by 14:
+  The number must be divisible by 2 and 7. Because 2 and 7 are prime factors of 14.
+
+
+
+15.Divisibility rule of 15:
+  The number should be divisible by 3 and 5. Because 3 and 5 are prime factors of 15.
+
+
+
+16.Divisible rule for 16:
+  The number formed by last four digits in given number must be divisible by 16.
+
+
+
+17.Divisibility by 17:
+  Multiply last digit with 5 and subtract it from remaining number in given number, result must be divisible by 17.
+
+
+18.Divisibility by 18:
+  The number should be divisible by 2 and 9. Because (2*(3^2)) are prime factors of 18.
+
+
+19.Divisibility by 19:
+  Multiply last digit with 2 and add it to remaining number in given number, result must be divisible by 19.
+
+
+
+20.Divisibility by 20:
+  The number formed by last two digits in given number must be divisible by 20.
+
+
