@@ -10,3 +10,6 @@ def pall():
      print("Time Taken=",e-s)
 
 pall()
+
+#Better:
+isPall = lambda n : str(n) == str(n)[::-1]
