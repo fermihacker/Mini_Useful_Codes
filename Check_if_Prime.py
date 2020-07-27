@@ -8,3 +8,7 @@ def prime(n):
         return True
     return all([not(n % i == 0) for i in islice(count(2),floor(sqrt(n)))])
 
+# An alternative function which runs just a little bit faster:
+
+def prime(n):
+    return n > 1 and all(n % i for i in islice(count(2), int(sqrt(n) - 1)))
